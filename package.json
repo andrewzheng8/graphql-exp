@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "mongoose": "^4.12.2",
+    "nodemon": "^1.12.1"
+  },
+  "name": "graphql-exp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:andrewzheng8/graphql-exp.git",
+  "author": "andrewzheng8 <andrew.zheng725@gmail.com>",
+  "license": "MIT"
+}
