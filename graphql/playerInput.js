@@ -1,4 +1,3 @@
-const mongoose = require('mongoose')
 var { GraphQLInputObjectType, GraphQLString, GraphQLNonNull } = require('graphql')
 
 const PlayerInputType = new GraphQLInputObjectType({

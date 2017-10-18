@@ -1,4 +1,3 @@
-const mongoose = require('mongoose')
 var PlayerType = require('./player')
 var PlayerMongo = require('../models/player')
 var { GraphQLObjectType, GraphQLString, GraphQLList } = require('graphql')
@@ -9,7 +8,7 @@ const QueryType = new GraphQLObjectType({
   fields: () => ({
     helloRoot: {
       type: GraphQLString,
-      resolve: root => 'Root'// Fetch the index of people from the REST API,
+      resolve: root => 'Root'
     },
     allPlayers: {
       type: new GraphQLList(PlayerType),

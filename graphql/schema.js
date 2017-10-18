@@ -1,4 +1,4 @@
-var { buildSchema, GraphQLSchema } = require('graphql')
+var {GraphQLSchema } = require('graphql')
 var QueryType = require('./query')
 var MutationType = require('./mutation')
 

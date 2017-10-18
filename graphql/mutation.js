@@ -1,4 +1,3 @@
-const mongoose = require('mongoose')
 var { GraphQLObjectType } = require('graphql')
 var PlayerMongo = require('../models/player')
 var PlayerType = require('./player')

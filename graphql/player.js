@@ -1,4 +1,3 @@
-const mongoose = require('mongoose')
 var { GraphQLObjectType, GraphQLString } = require('graphql')
 
 const PlayerType = new GraphQLObjectType({
@@ -11,11 +10,11 @@ const PlayerType = new GraphQLObjectType({
     },
     first_name: {
       type: GraphQLString,
-      resolve: player => player.first_name// Fetch the index of people from the REST API,
+      resolve: player => player.first_name
     },
     last_name: {
       type: GraphQLString,
-      resolve: player => player.last_name// Fetch the index of people from the REST API,
+      resolve: player => player.last_name
     }
   })
 })

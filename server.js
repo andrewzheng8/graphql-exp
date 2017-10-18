@@ -1,6 +1,5 @@
 var express = require('express')
 var graphqlHTTP = require('express-graphql')
-var root = require('./resolvers')
 var schema = require('./graphql/schema')
 const mongoose = require('mongoose')
 

@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 
 const playerSchema = new Schema({
   first_name: { type: String},
-  last_name: { type: String},
+  last_name: { type: String}
 })
 
 // Create the model class
